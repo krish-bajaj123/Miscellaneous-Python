@@ -1,0 +1,9 @@
+i=int(input("enter a niumber"))
+j=1
+f=int(input("enter a number"))
+while i<=f:
+    j=1
+    while j<=10:
+        print(i,"X",j,"=",i*j)
+        j=j+1
+    i=i+1
